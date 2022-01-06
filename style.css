@@ -1,0 +1,54 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-size: 80px;  
+}
+
+p{
+    font-weight: 300;
+    font-size: 30px;
+}
+
+section{
+    display: flex;
+    padding: 5% 0 20% 5%;
+}
+
+#hero{
+    
+    border-left: 5px solid;
+    border-image:url(images/shapes/shape-2.png);
+    border-image-slice: 184;
+    padding-left: 2%;
+    
+}
+
+.column{
+    width: 50%;
+
+}
+
+.column img{
+    width: 75%;
+}
+
+#image{
+    padding-left: 10%;
+}
+
+.tomato{
+    color: tomato;
+}
+
+.button{
+  background-color: tomato;
+  font-size: 30px;
+  color: white;
+  padding: 14px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+}
