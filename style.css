@@ -2,12 +2,34 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+.top-section {
+    padding: 5% 0 5% 5%;
+}
+
+.section2{
+    padding: 5% 5% 5% 5%;
+}
+
+.section3{
+    padding: 5% 0 5% 5%;
+}
+
+.section1{
+    padding: 0 5% 5% 5%;
+}
+
+
+
 h1{
     font-size: 80px;  
 }
 h2{
     font-size: 70px;
     text-align: center;
+}
+
+h3{
+    font-size: 60px;
 }
 h4{
     font-size: 30px;
@@ -16,12 +38,10 @@ h4{
 p{
     font-weight: 300;
     font-size: 25px;
+    text-align: justify;
 }
 
-section{
-    
-    padding: 2% 2% 2% 5%;
-}
+
 
 .flexible-container{
     display: flex;
@@ -36,10 +56,25 @@ section{
     
 }
 
+#hero-image{
+    padding-left: 50px;
+}
+
 .column{
     width: 50%;
 
 }
+
+.column1{
+    width:40%
+
+}
+
+.column2{
+    width:60%
+
+}
+
 
 .box{
     width: 33.33%;
@@ -66,13 +101,16 @@ section{
     background-color: lightgoldenrodyellow;
 }
 
-.column img{
-    width: 75%;
+.column img, .column1 img{
+    width: 70%;
+    
 }
 
-#image{
-    padding-left: 10%;
+#special-column{
+    padding-right: 5%;
 }
+
+
 
 .tomato{
     color: tomato;
